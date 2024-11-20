@@ -1,0 +1,65 @@
+/* General profile page styling */
+.profile-page {
+    padding: 30px;
+    background-color: #f5f9fc;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Profile info styling */
+  .profile-info {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+
+  .profile-info h1 {
+    font-size: 2em;
+    color: #1e3a8a;
+    margin-bottom: 15px;
+  }
+
+  .profile-info p {
+    font-size: 1.2em;
+    color: #4a5568;
+  }
+
+  /* Accounts table styling */
+  .accounts-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .accounts-section h2 {
+    font-size: 1.8em;
+    color: #1e3a8a;
+    margin-bottom: 20px;
+  }
+
+  .accounts-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .accounts-table th,
+  .accounts-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+
+  .accounts-table th {
+    background-color: #1e3a8a;
+    color: white;
+  }
+
+  .accounts-table tr:nth-child(even) {
+    background-color: #f9fafb;
+  }
+
+  .accounts-table tr:hover {
+    background-color: #f1f5f9;
+  }
